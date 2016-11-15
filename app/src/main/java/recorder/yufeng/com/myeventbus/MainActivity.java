@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                 MyEventBus.getDefault().post(new Event(" ui 我是2秒后的消息啊啊啊啊啊啊啊啊啊啊啊啊啊"));
             }
-        }, 2000);//延迟10秒执行
+        }, 2000);//延迟2秒执行
 
         new Thread(){
             @Override
