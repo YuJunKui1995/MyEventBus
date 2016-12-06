@@ -83,12 +83,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         MyEventBus.getDefault().register(this);//注册
 
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-
-            }
-        });
     }
 
 
